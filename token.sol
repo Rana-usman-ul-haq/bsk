@@ -647,7 +647,4 @@ contract BSK is ERC20, Ownable {
         _burn(msg.sender, amount);
     }
 
-    function mintTokens(uint256 amount) public onlyOwner {
-        _mint(msg.sender, amount);
-    }
 }
